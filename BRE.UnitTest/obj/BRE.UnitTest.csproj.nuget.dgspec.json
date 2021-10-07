@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.UnitTest\\BRE.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\BRE.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\BRE.App.csproj",
+        "projectName": "BRE.App",
+        "projectPath": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\BRE.App.csproj",
+        "packagesPath": "C:\\Users\\Yawson-Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yawson-Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.UnitTest\\BRE.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.UnitTest\\BRE.UnitTest.csproj",
+        "projectName": "BRE.UnitTest",
+        "projectPath": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.UnitTest\\BRE.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Yawson-Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yawson-Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\BRE.App.csproj": {
+                "projectPath": "C:\\Users\\Yawson-Lenovo\\source\\repos\\M_BusinessRulesEngine\\BRE.App\\BRE.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
