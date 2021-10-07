@@ -41,12 +41,12 @@ namespace BRE.UnitTest
             PhysicalProductProcessor physicalProcessor = null;
 
             // Act
-            // Assert
             var exception = Assert.Throws<ArgumentNullException>(delegate
             {
                 new ProductsProcessor(bookProcessor, physicalProcessor);
             });
 
+            // Assert
             Assert.That(exception is ArgumentNullException);
         }
 
@@ -61,7 +61,6 @@ namespace BRE.UnitTest
             var processor = new ProductsProcessor(bookProcessor, physicalProcessor);
 
             // Assert
-
             Assert.That(physicalProcessor == processor.PhysicalProcessor);
         }
 
@@ -123,6 +122,7 @@ namespace BRE.UnitTest
 
             // Act
             var result = processor.Process(products);
+
             // Assert
             Assert.That(products.Count == result.Count);
         }
