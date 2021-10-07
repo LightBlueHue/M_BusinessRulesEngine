@@ -37,7 +37,7 @@ namespace BRE.UnitTest
 
             var processor = new PhysicalProductProcessor();
 
-            // Assert
+            // Act
             // Assert
             Assert.Throws<ArgumentNullException>(delegate { processor.Process(product); });
         }

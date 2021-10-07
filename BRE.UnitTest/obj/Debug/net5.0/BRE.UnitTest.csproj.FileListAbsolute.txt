@@ -106,3 +106,5 @@ C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug
 C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug\net5.0\BRE.App.exe
 C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug\net5.0\BRE.App.dll
 C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug\net5.0\BRE.App.pdb
+C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Yawson-Lenovo\source\repos\M_BusinessRulesEngine\BRE.UnitTest\bin\Debug\net5.0\Moq.dll
